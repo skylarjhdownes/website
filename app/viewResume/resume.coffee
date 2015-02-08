@@ -1,7 +1,7 @@
 app = angular.module('myApp.viewResume', ['ui.bootstrap', 'ngRoute'])
 
 app.config(['$routeProvider', ($routeProvider) ->
-  $routeProvider.when('/viewResume', {
+  $routeProvider.when('/resume', {
     templateUrl: 'viewResume/resume.html',
     controller: 'resumeCtrl'
   })
