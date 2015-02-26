@@ -8,6 +8,7 @@ angular.module('myApp', [
   'myApp.viewResume',
   'myApp.viewCommunity',
   'myApp.viewBlog',
+  'myApp.viewStream',
   'myApp.view1',
   'myApp.view2',
   'myApp.version',
