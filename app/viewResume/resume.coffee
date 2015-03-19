@@ -1,4 +1,4 @@
-app = angular.module('myApp.viewResume', ['ui.bootstrap', 'ngRoute'])
+app = angular.module('myApp.viewResume', ['ngRoute'])
 
 app.config(['$routeProvider', ($routeProvider) ->
   $routeProvider.when('/resume', {

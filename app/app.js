@@ -4,7 +4,7 @@
 angular.module('myApp', [
   'ngRoute',
   // 'ui-bootstrap-tpls',
-  //'ui.bootstrap',
+  // 'ui.bootstrap',
   'myApp.viewHome',
   'myApp.viewResume',
   'myApp.viewCommunity',

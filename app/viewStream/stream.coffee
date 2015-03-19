@@ -1,4 +1,4 @@
-app = angular.module('myApp.viewStream', ['ui.bootstrap', 'ngRoute'])
+app = angular.module('myApp.viewStream', [ 'ngRoute'])  #'ui.bootstrap',
 
 app.config(['$routeProvider', ($routeProvider) ->
   $routeProvider.when('/stream', {

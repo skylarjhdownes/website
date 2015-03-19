@@ -1,4 +1,4 @@
-app = angular.module('myApp.viewHome', ['ui.bootstrap', 'ngRoute'])
+app = angular.module('myApp.viewHome', ['ngRoute'])
 
 app.config(['$routeProvider', ($routeProvider) ->
   $routeProvider.when('/home', {
