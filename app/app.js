@@ -3,7 +3,8 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
-  'ui.bootstrap',
+  // 'ui-bootstrap-tpls',
+  //'ui.bootstrap',
   'myApp.viewHome',
   'myApp.viewResume',
   'myApp.viewCommunity',
@@ -16,3 +17,6 @@ angular.module('myApp', [
 config(['$routeProvider', function($routeProvider) {
   $routeProvider.otherwise({redirectTo: '/home'});
 }]);
+function NavBarCtrl($scope) {
+    $scope.isCollapsed = true;
+}
