@@ -1,4 +1,4 @@
-app = angular.module('myApp.viewCommunity', ['ui.bootstrap', 'ngRoute'])
+app = angular.module('myApp.viewCommunity', ['ngRoute'])
 
 app.config(['$routeProvider', ($routeProvider) ->
   $routeProvider.when('/community', {

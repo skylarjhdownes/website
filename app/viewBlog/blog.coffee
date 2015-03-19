@@ -1,4 +1,4 @@
-app = angular.module('myApp.viewBlog', ['ui.bootstrap', 'ngRoute'])
+app = angular.module('myApp.viewBlog', ['ngRoute'])
 
 app.config(['$routeProvider', ($routeProvider) ->
   $routeProvider.when('/blog', {
