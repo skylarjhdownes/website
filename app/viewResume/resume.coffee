@@ -8,5 +8,5 @@ app.config(['$routeProvider', ($routeProvider) ->
 ])
 
 app.controller('resumeCtrl', [ '$scope', ($scope) ->
-  $scope.potato = "potato"
+  skrollr.init();
 ])

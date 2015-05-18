@@ -14,6 +14,7 @@ app.config([
 
 app.controller('resumeCtrl', [
   '$scope', function($scope) {
+    skrollr.init();
     return $scope.potato = "potato";
   }
 ]);
