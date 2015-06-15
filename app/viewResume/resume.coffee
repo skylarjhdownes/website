@@ -1,4 +1,7 @@
-app = angular.module('myApp.viewResume', ['ngRoute'])
+app = angular.module('myApp.viewResume', [
+  'ngRoute',
+  'myApp.skrollr'
+])
 
 app.config(['$routeProvider', ($routeProvider) ->
   $routeProvider.when('/resume', {
