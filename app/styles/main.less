@@ -2,7 +2,7 @@
 .expandoThing {
   height:100%;
   width:100%;
-  position:static;
+  display:inline;
   overflow-x: visible;
   padding:1px;
   border-color:blue;
@@ -11,4 +11,14 @@
   border-right: none;
   border-bottom: none;
   border-width:1px;
+
+  font-size: 20px;
+
+  @media @tablet {
+    font-size: 14px;
+  }
+
+  @media @smartphone {
+    font-size: 12px;
+  }
 }
