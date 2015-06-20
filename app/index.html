@@ -17,7 +17,7 @@
 
 
 
-<nav class="navbar navbar-default" ng-controller="NavBarCtrl">
+<nav class="navbar navbar-default" ng-controller="NavBarCtrl" ng-hide="isActivePath('/riotresume')">
   <div class="navbar-header">
     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar-collapse">
       <span class="sr-only">Toggle navigation</span>
@@ -62,6 +62,7 @@
   <script src="viewHome/home.js"></script>
   <script src="viewCommunity/community.js"></script>
   <script src="viewResume/resume.js"></script>
+  <script src="viewRiotResume/riotResume.js"></script>
   <script src="viewBlog/blog.js"></script>
   <script src="viewStream/stream.js"></script>
 

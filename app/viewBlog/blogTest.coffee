@@ -1,4 +1,4 @@
-describe 'myApp.viewResume', ->
-  describe 'resumeCtrl', ->
-    it 'should be a resume or somesuch', ->
+describe 'myApp.viewBlog', ->
+  describe 'blogCtrl', ->
+    it 'should things', ->
       expect(true).toEqual(true)
