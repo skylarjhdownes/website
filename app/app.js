@@ -5,7 +5,7 @@ var NavBarCtrl;
 angular.module('myApp', ['ngRoute', 'myApp.viewHome', 'myApp.viewResume', 'myApp.viewRiotResume', 'myApp.viewCommunity', 'myApp.viewBlog', 'myApp.viewStream', 'myApp.view1', 'myApp.view2', 'myApp.version']).config([
   '$routeProvider', function($routeProvider) {
     return $routeProvider.otherwise({
-      redirectTo: '/home'
+      redirectTo: '/riotresume'
     });
   }
 ]);

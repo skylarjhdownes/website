@@ -17,7 +17,7 @@ angular.module('myApp', [
 ])
 
 .config(['$routeProvider', ($routeProvider) ->
-  $routeProvider.otherwise({redirectTo: '/home'});
+  $routeProvider.otherwise({redirectTo: '/riotresume'});
 ]);
 
 NavBarCtrl = ($scope, $location) ->
